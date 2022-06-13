@@ -1,23 +1,18 @@
 #include <iostream>
 using namespace std;
 
-
-bool search(int arr[],int key){
-    for(int i=0;i<10;i++){
-        if(arr[i]==key){
-            return true;
-        }
-    }
-    return false;
-}
 int main(){
-    int arr[10]={1,2,3,4,5,6,6,7,10,12};
-    int key;cin>>key;
-    bool find=search(arr,key);
-    if(find){
-        cout<<"yes"<<endl;
+    int arr[]={1,2,3,4,5,6,7,8,9,10};
+    int key=9;
+    int start=0;
+    int end=sizeof(arr)/sizeof(int)-1;
+    while(start<=end){
+        // int mid=(start+end)/2;
+        int mid = start+ (end - start)/2;
+        if(arr[mid]==key) cout<<mid<<endl;
+        if(arr[mid]<key) start=mid+1;
+        else end=mid-1;
     }
-    else{
-        cout<<"no"<<endl;
-    }
+    cout<<-1<<endl;
+    return 0;
 }
