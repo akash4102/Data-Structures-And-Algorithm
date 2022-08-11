@@ -1,0 +1,1 @@
+{"name":"Local: longestWorkSlot","url":"e:\\Data-Structures-And-Algorithm\\longestWorkSlot.cpp","tests":[{"id":1660206737205,"input":"4\n0 3\n2 5\n0 9\n1 15","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Data-Structures-And-Algorithm\\longestWorkSlot.cpp","group":"local","local":true}
