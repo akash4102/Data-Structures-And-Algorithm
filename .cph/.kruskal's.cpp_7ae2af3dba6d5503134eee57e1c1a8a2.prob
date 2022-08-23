@@ -1,0 +1,1 @@
+{"name":"Local: kruskal's","url":"e:\\Data-Structures-And-Algorithm\\kruskal's.cpp","tests":[{"id":1661238280397,"input":"6 9\n1 4 1\n1 2 2\n2 3 3\n2 4 3\n1 5 4\n3 4 5\n2 6 7\n3 6 8\n4 5 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Data-Structures-And-Algorithm\\kruskal's.cpp","group":"local","local":true}
