@@ -1,6 +1,7 @@
 #include "bits/stdc++.h"
 using namespace std;
 
+//for class structure 
 class Node{
     public:
     int data;
