@@ -80,12 +80,12 @@ int main(){
     print(link);
     insertAtHead(link,12);
     print(link);
-    insertAtHead(link,12);
+   // insertAtHead(link,12);
     print(link);
     insertAtPositoin(link,1,25);
-    print(link);
-    deleteNode(link,3);
-    print(link);
+   // print(link);
+   // deleteNode(link,3);
+   // print(link);
     deleteNode(link,1);
     print(link);
 
