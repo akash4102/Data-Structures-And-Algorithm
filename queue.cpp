@@ -49,10 +49,10 @@ int main(){
     // queue q;
     deque<int>q;
     q.push_back(10);
-    q.push_back(15);
+    //q.push_back(15);
     q.push_back(17);
-    q.push_back(12);
-    q.push_front(19);
+   // q.push_back(12);
+   // q.push_front(19);
     // cout<<q.size()<<endl;
     // q.pop();
     // q.pop();
