@@ -27,10 +27,10 @@ class graph{
 
 int main(){
     int n;
-    cout<<"enter the number of edges"<<endl;
+   // cout<<"enter the number of edges"<<endl;
     cin>>n;
     int m;
-    cout<<"enter the number of edges"<<endl;
+    //cout<<"enter the number of edges"<<endl;
     cin>>m;
     graph<int> g;
     for(int i=0;i<m;i++){
