@@ -14,6 +14,6 @@ int gcd(int a,int b){
 int main(){
     int a,b;cin>>a>>b;
     int ans=gcd(a,b);
-    cout<<ans<<endl;
+    //cout<<ans<<endl;
     return 0;
 }
