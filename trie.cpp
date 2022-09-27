@@ -61,8 +61,8 @@ class Trie{
 };
 
 int main(){
-    Trie *t =new Trie();
-    t->insertWord("ABCD");
+    //Trie *t =new Trie();
+    //t->insertWord("ABCD");
     //cout<<"presend or not "<<t->serch("ABCD")<<endl;
      
     return 0;
