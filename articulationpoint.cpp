@@ -59,7 +59,7 @@ int main(){
         }
     }
     //print ap
-    cout<<"ariticulation point"<<endl;
+//     cout<<"ariticulation point"<<endl;
     for(int i=0;i<n;i++){
         if(ap[i]!=0){
             cout<<ap[i]<<" ";
